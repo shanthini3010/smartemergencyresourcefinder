@@ -15,7 +15,7 @@ const [patientBlood,setPatientBlood] = useState("");
 const [hospital,setHospital] = useState("");
 const [patientPhone,setPatientPhone] = useState("");
 const [patientLocation,setPatientLocation] = useState("");
-const [requests,setRequests] = useState([]);
+const [,setRequests] = useState([]);
 
 /* Register Blood Donor */
 useEffect(()=>{
